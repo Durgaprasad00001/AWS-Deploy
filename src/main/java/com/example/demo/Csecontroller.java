@@ -8,11 +8,11 @@ public class Csecontroller {
 
     @GetMapping("/home")
     public String home() {
-        return "Welcome to Jenkins AWS";
+        return "Welcome to My Task today i completed";
     }
 
     @GetMapping("/cse")
     public String cse() {
-        return "Welcome to Third year cse";
+        return "Welcome to Third year cse from Durgaprasad";
     }
 }
